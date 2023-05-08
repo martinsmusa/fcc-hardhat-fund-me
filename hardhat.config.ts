@@ -6,6 +6,7 @@ import "hardhat-gas-reporter"
 import "dotenv/config"
 import "hardhat-deploy"
 import "solidity-coverage"
+import "@nomiclabs/hardhat-solhint"
 
 import dotenv from 'dotenv';
 import { HardhatUserConfig } from 'hardhat/config';
